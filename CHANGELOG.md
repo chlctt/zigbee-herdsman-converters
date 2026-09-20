@@ -1,5 +1,25 @@
 # Changelog
 
+## [26.112.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v26.111.0...v26.112.0) (2026-09-20)
+
+
+### Features
+
+* **add:** 81910, AD-DL4CT3001, AD-DL4RGBW3001, AD-DL6CT3001, AD-DL6RGBW3001, AD-FLMCT3001, AD-GU10RGB3001 ([#13221](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13221)) ([b82fdb9](https://github.com/Koenkk/zigbee-herdsman-converters/commit/b82fdb9437fe36223386569ca3d03d6cb7f278d2))
+* **add:** LD6 ([#13226](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13226)) ([8e3b01c](https://github.com/Koenkk/zigbee-herdsman-converters/commit/8e3b01cb9a6c18d9bcf6d13dea27dfc97e00db4e))
+* **add:** TS0601_wsek35um ([#13227](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13227)) ([2d5e292](https://github.com/Koenkk/zigbee-herdsman-converters/commit/2d5e29229f7a48d849e965931836260d46553172))
+* Tuya TO-Q-SYS-JZT: support more features ([#13231](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13231)) ([650acba](https://github.com/Koenkk/zigbee-herdsman-converters/commit/650acba2df1f9fbb21ae5f6fb7e11ba40d950aa7))
+
+
+### Bug Fixes
+
+* **detect:** Detect `_TZ3000_olo5jhjk` as Tuya TS0001_power ([#13234](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13234)) ([61ee7c4](https://github.com/Koenkk/zigbee-herdsman-converters/commit/61ee7c472f8f483cd0427d86fd97ea4744c5bfd5))
+* **detect:** Detect `_TZE284_uenof8jd` as Moes SFL02-Z-2 ([#13230](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13230)) ([dd87b38](https://github.com/Koenkk/zigbee-herdsman-converters/commit/dd87b38b45ff2ac30b51f9ffc5ec3768556753cc))
+* **ignore:** bump the minor-patch group with 2 updates ([#13236](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13236)) ([e0b265b](https://github.com/Koenkk/zigbee-herdsman-converters/commit/e0b265ba557229ce07a03671642aafed9f4994b7))
+* Onesti Products AS locks: PIN code format, source 0x05, capability attributes ([#13233](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13233)) ([61b0b4c](https://github.com/Koenkk/zigbee-herdsman-converters/commit/61b0b4c77d3eef90f6da5dcc0922c676b006db52))
+* Schneider Electric: declare hvacThermostat 0xE012 (open window detection status) ([#13229](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13229)) ([764f7d1](https://github.com/Koenkk/zigbee-herdsman-converters/commit/764f7d10bd2c2b2009f85938b6ae07fd92946d3b))
+* ShinaSystem CSM-300ZB_V2: rename `transaction` to `transaction_interval` ([#13238](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13238)) ([314ad75](https://github.com/Koenkk/zigbee-herdsman-converters/commit/314ad7552104c05a6f16766403b4d56049195242))
+
 ## [26.111.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v26.110.0...v26.111.0) (2026-09-18)
 
 
